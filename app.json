@@ -2,7 +2,7 @@
   "expo": {
     "name": "SafiriPamoja",
     "slug": "SafiriPamoja",
-    "version": "1.0.0",
+    "version": "3.3.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.supatribe.safiripamoja"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32714822-9dfc-4581-8cde-7179f02c6ee2"
+      }
     }
   }
 }
